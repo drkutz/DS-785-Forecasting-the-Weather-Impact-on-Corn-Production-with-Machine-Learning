@@ -158,12 +158,13 @@ def merge_state(yield_df: pd.DataFrame, acres_df: pd.DataFrame) -> pd.DataFrame:
 
 
 # ---------- INPUT FILE PATHS ----------
-ia_yield_path  = "IA corn by acre by county.csv"
-ia_acres_path  = "iowa corn acres planted per year.csv"
-il_yield_path  = "IL corn by acre by county.csv"
-il_acres_path  = "illnois corn acres planted per year.csv" 
-ne_acres_path  = "nebraska corn acres planted per year.csv"
-ne_yield_path  = "NE corn yield per acre.csv"
+
+ia_yield_path  = r"corn yield and acres inputs\IA corn by acre by county.csv"
+ia_acres_path  = r"corn yield and acres inputs\iowa corn acres planted per year.csv"
+il_yield_path  = r"corn yield and acres inputs\IL corn by acre by county.csv"
+il_acres_path  = r"corn yield and acres inputs\illnois corn acres planted per year.csv" 
+ne_acres_path  = r"corn yield and acres inputs\nebraska corn acres planted per year.csv"
+ne_yield_path  = r"corn yield and acres inputs\NE corn yield per acre.csv"
 
 # ---------- LOAD ----------
 ia_yield_raw = pd.read_csv(ia_yield_path)

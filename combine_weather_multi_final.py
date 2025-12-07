@@ -239,9 +239,9 @@ if __name__ == "__main__":
     run_multi(
         output_dir="out",
         state_dirs={
-            "IA": "path/to/Iowa/weather",
-            "IL": "path/to/Illinois/weather",
-            "NE": "path/to/Nebraska/weather",
+            "IA": "IA weather",
+            "IL": "IL weather",
+            "NE": "NE weather",
         },
         start_year=1980,
         end_year=2019)

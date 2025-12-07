@@ -21,7 +21,7 @@ enso = "enso_events.csv"
 df_yields = pd.read_csv(yields_path)
 df_weather = pd.read_csv(weather_path)
 enso_df = pd.read_csv(enso) #this is a simple csv file 
-prices_dir = r"C:\Users\drkut\OneDrive\Documents\ds 785\prices"
+prices_dir = r".\prices"
 
 #--------- standardize the states
 state_map = {
