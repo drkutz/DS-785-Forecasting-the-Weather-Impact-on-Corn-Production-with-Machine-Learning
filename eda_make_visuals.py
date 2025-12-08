@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 
 
 # ---------- load the data abd create the output path -----------------
-INPUT_CSV = r"C:\Users\drkut\OneDrive\Documents\ds 785\corn_weather_merged_district_daily_new.csv"
+INPUT_CSV = r"corn_weather_merged_district_daily_new.csv"
 TARGET = "Yield_bu_per_acre"                                   
 GROUP_COL = "State"                                
 TIME_COL = "Year"                                  
@@ -37,7 +37,7 @@ def _save_fig(name: str):
     plt.tight_layout()
     plt.savefig(out, dpi=150, bbox_inches="tight")
     plt.close()
-    print(f"[saved] {out}")
+    print(f"{out}")
 
 def _safe_title(s: str) -> str:
     return "".join(ch for ch in s if ch.isalnum() or ch in ("_", "-", " ")).strip().replace(" ", "_")

@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
+By Adam Gruber
 take the individual files of weather data and combine the into a State of weather data by Ag District
 
 Outputs:

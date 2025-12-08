@@ -2,7 +2,7 @@
 """
 Created on Thu Oct  2 22:10:20 2025
 
-@author: drkut
+@author: Adam Gruber
 """
 
 import os
